@@ -50,7 +50,7 @@ export const JOURNEY: JourneyItem[] = [
     year: "2022 — dnes",
     company: "O2 Czech Republic",
     role: "SMB akvizice",
-    meta: ["Business Development", "Akvizice nových zákazníků"],
+    meta: ["B2B obchod", "Akvizice nových zákazníků"],
   },
 ];
 
@@ -60,7 +60,7 @@ export type SkillCard = {
 };
 
 export const SKILLS: SkillCard[] = [
-  { title: "Business Development", icon: "growth" },
+  { title: "B2B obchod", icon: "growth" },
   { title: "Akviziční obchod", icon: "target" },
   { title: "Vyjednávání", icon: "handshake" },
   { title: "Péče o klienty", icon: "heart" },

@@ -19,13 +19,12 @@ const SITE_URL = "https://lukaslasak.cz";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "Lukáš Lasák — Obchodní zástupce & Business Development",
+  title: "Lukáš Lasák — Obchodní zástupce",
   description:
     "Obchodník s více než desetiletou praxí v B2B, podnikatelským myšlením a vášní pro AI a moderní technologie. Hledám novou výzvu, kde spojím obchod, technologie a kreativitu.",
   keywords: [
     "Lukáš Lasák",
     "obchodní zástupce",
-    "business development",
     "B2B obchod",
     "SMB akvizice",
     "AI",
@@ -33,7 +32,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Lukáš Lasák" }],
   openGraph: {
-    title: "Lukáš Lasák — Obchodní zástupce & Business Development",
+    title: "Lukáš Lasák — Obchodní zástupce",
     description:
       "Obchodník s více než desetiletou praxí v B2B, podnikatelským myšlením a vášní pro AI a moderní technologie.",
     url: SITE_URL,
