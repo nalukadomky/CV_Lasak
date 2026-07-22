@@ -5,9 +5,9 @@ import { useState } from "react";
 
 const LINKS = [
   { href: "#kdo-jsem", label: "Kdo jsem" },
+  { href: "#proc-ja", label: "Proč já" },
   { href: "#cesta", label: "Cesta" },
   { href: "#umim", label: "Co umím" },
-  { href: "#proc-ja", label: "Proč já" },
 ];
 
 export default function Nav() {

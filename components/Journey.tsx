@@ -75,7 +75,7 @@ export default function Journey() {
   return (
     <section id="cesta" className="relative px-6 py-28 md:px-10 md:py-40">
       <div className="mx-auto max-w-5xl">
-        <SectionLabel index="02">Moje cesta</SectionLabel>
+        <SectionLabel index="03">Moje cesta</SectionLabel>
 
         <div ref={ref} className="relative mt-4">
           {/* Vertical axis */}

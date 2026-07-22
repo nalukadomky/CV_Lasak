@@ -80,7 +80,7 @@ export const EDUCATION = [
   },
 ];
 
-export const LANGUAGES = [{ flag: "🇬🇧", name: "Angličtina", level: "B1" }];
+export const LANGUAGES = [{ flag: "🇬🇧", name: "Angličtina", level: "B2" }];
 
 export const HOBBIES = [
   "Fotografování",
@@ -90,6 +90,17 @@ export const HOBBIES = [
   "AI",
   "Nové technologie",
 ];
+
+export const SOFTWARE = [
+  "Claude Code",
+  "Adobe Illustrator",
+  "Photoshop",
+  "Lightroom",
+  "Premiere Pro",
+  "Microsoft Excel / Word",
+];
+
+export const DRIVING = ["B — osobní auta", "A — velká motorka"];
 
 export const WHY_ME = {
   headline: "Obchod je pro mě hlavně o důvěře.",
@@ -116,7 +127,7 @@ export const WHY_ME = {
     },
     {
       title: "Hraju, abych vyhrál",
-      body: "Jde mi o výsledek — ne o odškrtnutou aktivitu.",
+      body: "Jde mi o výsledek, ne o odškrtnutou aktivitu. Nejspíš proto hraju fotbal už 25 let.",
       index: "05",
     },
   ],

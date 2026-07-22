@@ -118,6 +118,18 @@ export const ICONS: Record<string, (p: IconProps) => ReactElement> = {
       <path d="M3 9v6M6 7v10M18 7v10M21 9v6M6 12h12" />
     </svg>
   ),
+  car: (p) => (
+    <svg {...base} {...p}>
+      <path d="M3 13l1.8-4.6A2 2 0 016.7 7h10.6a2 2 0 011.9 1.4L21 13v5h-2.5M3 18v-5m0 5h2.5M3 13h18" />
+      <circle cx="7" cy="18" r="1.6" />
+      <circle cx="17" cy="18" r="1.6" />
+    </svg>
+  ),
+  code: (p) => (
+    <svg {...base} {...p}>
+      <path d="M8 8l-4 4 4 4M16 8l4 4-4 4M13 6l-2 12" />
+    </svg>
+  ),
 };
 
 export function Icon({

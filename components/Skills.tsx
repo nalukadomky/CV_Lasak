@@ -13,7 +13,7 @@ export default function Skills() {
   return (
     <section id="umim" className="relative px-6 py-28 md:px-10 md:py-40">
       <div className="mx-auto max-w-5xl">
-        <SectionLabel index="03">Co umím</SectionLabel>
+        <SectionLabel index="04">Co umím</SectionLabel>
 
         <div className="grid grid-cols-1 gap-3.5 sm:grid-cols-2 lg:grid-cols-3">
           {SKILLS.map((s, i) => (
