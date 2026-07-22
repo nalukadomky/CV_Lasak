@@ -111,7 +111,7 @@ export const WHY_ME = {
     },
     {
       title: "Rychle se učím",
-      body: "Novou oblast nasaju za pár týdnů, ne měsíců.",
+      body: "Nová témata mě baví a rád jim jdu na kloub.",
       index: "04",
     },
     {
