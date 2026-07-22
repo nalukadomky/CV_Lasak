@@ -29,22 +29,28 @@ export type JourneyItem = {
 
 export const JOURNEY: JourneyItem[] = [
   {
-    year: "2009",
-    company: "Ramirent s.r.o.",
-    role: "Hlavní grafický designer pro ČR a Slovensko",
-    meta: ["Vizuální identita", "Kreativa"],
-  },
-  {
     year: "2014 — 2019",
     company: "Channel Partners",
     role: "Obchodní zastoupení společnosti E.ON",
     meta: ["více než 5 let", "B2B obchod", "střední podniky", "velké firmy"],
   },
   {
-    year: "2021 — dnes",
+    year: "2019 — 2021",
+    company: "Ramirent s.r.o.",
+    role: "Hlavní grafický designer pro ČR a Slovensko",
+    meta: ["Vizuální identita", "Kreativa"],
+  },
+  {
+    year: "2019 — 2023",
+    company: "Bowlingwood s.r.o.",
+    role: "Majitel vlastního baru",
+    meta: ["Podnikání", "Vedení týmu", "Provoz"],
+  },
+  {
+    year: "2022 — dnes",
     company: "O2 Czech Republic",
     role: "SMB Acquisition",
-    meta: ["více než 4 roky", "Business Development", "Akvizice nových zákazníků"],
+    meta: ["Business Development", "Akvizice nových zákazníků"],
   },
 ];
 
