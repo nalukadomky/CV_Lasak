@@ -1,0 +1,113 @@
+export const HERO = {
+  name: "Lukáš Lasák",
+  age: "33 let",
+  location: "Praha",
+  role: "Obchodní zástupce",
+  tagline: "Obchod · Technologie · Kreativita",
+};
+
+export const ABOUT_PARAGRAPHS: string[] = [
+  "Obchodu se věnuji prakticky celý svůj profesní život. Už během studia grafického designu jsem zjistil, že mě mnohem více baví práce s lidmi než samotná tvorba grafiky.",
+  "Ve svých osmnácti letech jsem nastoupil do společnosti Channel Partners, kde jsem více než pět let pomáhal firmám nakupovat energie prostřednictvím společnosti E.ON. Specializoval jsem se především na střední podniky a velké společnosti.",
+  "Současně jsem si splnil svůj podnikatelský sen a otevřel vlastní bar. Tahle zkušenost mě naučila dívat se na obchod nejen očima obchodníka, ale i podnikatele.",
+  "Poslední více než čtyři roky působím ve společnosti O2, kde se starám o akvizice nových SMB zákazníků.",
+  "Dnes hledám novou výzvu. Místo, kde budu moci spojit obchod, technologie a kreativitu.",
+  "Poslední rok se intenzivně věnuji AI a tzv. vibe codingu. Baví mě přemýšlet nad produkty, hledat nové příležitosti a přicházet s řešeními, která posouvají firmy dopředu.",
+];
+
+export const ABOUT_CLOSER = {
+  lead: "Věřím, že nejlepší obchodník není ten, kdo pouze prodává.",
+  emphasis: "Je to člověk, který chápe byznys.",
+};
+
+export type JourneyItem = {
+  year: string;
+  company: string;
+  role: string;
+  meta: string[];
+};
+
+export const JOURNEY: JourneyItem[] = [
+  {
+    year: "2009",
+    company: "Ramirent s.r.o.",
+    role: "Hlavní grafický designer pro ČR a Slovensko",
+    meta: ["Vizuální identita", "Kreativa"],
+  },
+  {
+    year: "2014 — 2019",
+    company: "Channel Partners",
+    role: "Obchodní zastoupení společnosti E.ON",
+    meta: ["více než 5 let", "B2B obchod", "střední podniky", "velké firmy"],
+  },
+  {
+    year: "2021 — dnes",
+    company: "O2 Czech Republic",
+    role: "SMB Acquisition",
+    meta: ["více než 4 roky", "Business Development", "Akvizice nových zákazníků"],
+  },
+];
+
+export type SkillCard = {
+  title: string;
+  icon: string;
+};
+
+export const SKILLS: SkillCard[] = [
+  { title: "Business Development", icon: "growth" },
+  { title: "Akviziční obchod", icon: "target" },
+  { title: "Vyjednávání", icon: "handshake" },
+  { title: "Péče o klienty", icon: "heart" },
+  { title: "AI & Vibe Coding", icon: "spark" },
+  { title: "Kreativní myšlení", icon: "bulb" },
+  { title: "Podnikání", icon: "rocket" },
+  { title: "Komunikace", icon: "chat" },
+  { title: "Networking", icon: "network" },
+];
+
+export const EDUCATION = [
+  { school: "Gymnázium Litoměřická", detail: "" },
+  { school: "Střední škola grafického designu Michael", detail: "Maturita" },
+  {
+    school: "Vyšší odborná škola Kreativní komunikace",
+    detail: "Absolutorium",
+  },
+];
+
+export const LANGUAGES = [{ flag: "🇬🇧", name: "Angličtina", level: "B1" }];
+
+export const HOBBIES = [
+  "Fotografování",
+  "Fotbal",
+  "Sport",
+  "Cestování",
+  "AI",
+  "Nové technologie",
+];
+
+export const WHY_ME = {
+  headline: "Obchod je pro mě hlavně o důvěře.",
+  cards: [
+    {
+      title: "Obchodní zkušenosti",
+      body: "Více než 10 let v B2B.",
+      index: "01",
+    },
+    {
+      title: "Podnikatelské myšlení",
+      body: "Znám obchod z obou stran.",
+      index: "02",
+    },
+    {
+      title: "Technologie",
+      body: "Nebojím se AI ani moderních nástrojů.",
+      index: "03",
+    },
+  ],
+};
+
+export const CONTACT = {
+  lead: "Hledám firmu, která chce růst.",
+  emphasis: "Stejně jako já.",
+  email: "lasak.design@gmail.com",
+};

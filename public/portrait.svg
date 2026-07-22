@@ -1,0 +1,27 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#141416"/>
+      <stop offset="1" stop-color="#0a0a0b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.34" r="0.6">
+      <stop offset="0" stop-color="#ff6a45" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ff6a45" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fig" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a2a2e"/>
+      <stop offset="1" stop-color="#141416"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="url(#glow)"/>
+  <g fill="url(#fig)">
+    <circle cx="400" cy="360" r="150"/>
+    <path d="M170 1000c0-160 103-280 230-280s230 120 230 280z"/>
+  </g>
+  <g fill="none" stroke="#ff6a45" stroke-opacity="0.25" stroke-width="2">
+    <circle cx="400" cy="360" r="150"/>
+  </g>
+  <text x="400" y="620" font-family="Georgia, serif" font-size="46" fill="#f4f1ea" fill-opacity="0.85" text-anchor="middle">Lukáš Lasák</text>
+  <text x="400" y="662" font-family="system-ui, sans-serif" font-size="20" letter-spacing="3" fill="#a5a29b" text-anchor="middle">NAHRAĎ FOTOGRAFIÍ · /public/lukas.jpg</text>
+</svg>
