@@ -10,7 +10,7 @@ export default function Education() {
   return (
     <section id="studium" className="relative px-6 py-28 md:px-10 md:py-40">
       <div className="mx-auto max-w-3xl">
-        <SectionLabel index="05">Studium</SectionLabel>
+        <SectionLabel index="04">Studium</SectionLabel>
 
         <div className="relative pl-8">
           <div className="absolute left-[3px] top-2 h-[calc(100%-1rem)] w-px bg-line" />

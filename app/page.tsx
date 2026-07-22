@@ -22,11 +22,11 @@ export default function Home() {
       <main>
         <Hero />
         <WhyMe />
-        <About />
         <Journey />
         <Skills />
         <Education />
         <AboutMe />
+        <About />
         <Contact />
       </main>
       <Footer />

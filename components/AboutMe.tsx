@@ -23,7 +23,7 @@ export default function AboutMe() {
   return (
     <section id="o-mne" className="relative px-6 py-28 md:px-10 md:py-40">
       <div className="mx-auto max-w-5xl">
-        <SectionLabel index="06">O mně</SectionLabel>
+        <SectionLabel index="05">O mně</SectionLabel>
 
         <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
           {/* Languages */}
