@@ -4,8 +4,8 @@ import { motion, useMotionValueEvent, useScroll } from "framer-motion";
 import { useState } from "react";
 
 const LINKS = [
-  { href: "#kdo-jsem", label: "Kdo jsem" },
   { href: "#proc-ja", label: "Proč já" },
+  { href: "#kdo-jsem", label: "Kdo jsem" },
   { href: "#cesta", label: "Cesta" },
   { href: "#umim", label: "Co umím" },
 ];

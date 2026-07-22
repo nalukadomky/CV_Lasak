@@ -11,7 +11,7 @@ export default function About() {
   return (
     <section id="kdo-jsem" className="relative px-6 py-28 md:px-10 md:py-40">
       <div className="mx-auto max-w-3xl">
-        <SectionLabel index="01">Kdo jsem</SectionLabel>
+        <SectionLabel index="02">Kdo jsem</SectionLabel>
 
         <div className="space-y-8 md:space-y-10">
           {ABOUT_PARAGRAPHS.map((p, i) => (

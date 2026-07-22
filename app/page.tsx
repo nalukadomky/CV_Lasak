@@ -21,8 +21,8 @@ export default function Home() {
       <Nav />
       <main>
         <Hero />
-        <About />
         <WhyMe />
+        <About />
         <Journey />
         <Skills />
         <Education />
