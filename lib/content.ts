@@ -49,7 +49,7 @@ export const JOURNEY: JourneyItem[] = [
   {
     year: "2022 — dnes",
     company: "O2 Czech Republic",
-    role: "SMB Acquisition",
+    role: "SMB akvizice",
     meta: ["Business Development", "Akvizice nových zákazníků"],
   },
 ];
