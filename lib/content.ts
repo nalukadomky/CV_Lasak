@@ -122,7 +122,7 @@ export const WHY_ME = {
     },
     {
       title: "Rychle se učím",
-      body: "Nová témata mě baví a rád jim jdu na kloub.",
+      body: "Nová témata mě baví a rád jim přijdu na kloub.",
       index: "04",
     },
     {
