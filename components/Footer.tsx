@@ -10,13 +10,23 @@ export default function Footer() {
         <span className="text-[0.82rem]">
           © {new Date().getFullYear()} · Praha · Vytvořeno s péčí
         </span>
-        <a
-          href={`mailto:${CONTACT.email}`}
-          data-cursor="hover"
-          className="text-[0.82rem] transition-colors hover:text-paper"
-        >
-          {CONTACT.email}
-        </a>
+        <div className="flex items-center gap-3 text-[0.82rem]">
+          <a
+            href={`mailto:${CONTACT.email}`}
+            data-cursor="hover"
+            className="transition-colors hover:text-paper"
+          >
+            {CONTACT.email}
+          </a>
+          <span className="h-1 w-1 rounded-full bg-paper-dim/50" />
+          <a
+            href={`tel:${CONTACT.phoneHref}`}
+            data-cursor="hover"
+            className="transition-colors hover:text-paper"
+          >
+            {CONTACT.phone}
+          </a>
+        </div>
       </div>
     </footer>
   );

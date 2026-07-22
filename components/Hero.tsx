@@ -109,6 +109,8 @@ export default function Hero() {
             <span>{HERO.age}</span>
             <span className="h-1 w-1 rounded-full bg-paper-dim/50" />
             <span>{HERO.location}</span>
+            <span className="h-1 w-1 rounded-full bg-paper-dim/50" />
+            <span className="text-accent">{HERO.experience}</span>
           </motion.div>
 
           <motion.p

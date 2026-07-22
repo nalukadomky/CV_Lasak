@@ -3,12 +3,13 @@ export const HERO = {
   age: "33 let",
   location: "Praha",
   role: "Obchodní zástupce",
+  experience: "více než 12 let v B2B",
   tagline: "Obchod · Technologie · Kreativita",
 };
 
 export const ABOUT_PARAGRAPHS: string[] = [
   "Obchodu se věnuji prakticky celý svůj profesní život. Už během studia grafického designu jsem zjistil, že mě mnohem více baví práce s lidmi než samotná tvorba grafiky.",
-  "Ve svých osmnácti letech jsem nastoupil do společnosti Channel Partners, kde jsem více než pět let pomáhal firmám nakupovat energie prostřednictvím společnosti E.ON. Specializoval jsem se především na střední podniky a velké společnosti.",
+  "Ve svých devatenácti letech jsem nastoupil do společnosti Channel Partners, kde jsem více než osm let pomáhal firmám nakupovat energie prostřednictvím společnosti E.ON. Specializoval jsem se především na střední podniky a velké společnosti.",
   "Současně jsem si splnil svůj podnikatelský sen a otevřel vlastní bar. Tahle zkušenost mě naučila dívat se na obchod nejen očima obchodníka, ale i podnikatele.",
   "Poslední více než čtyři roky působím ve společnosti O2, kde se starám o akvizice nových SMB zákazníků.",
   "Dnes hledám novou výzvu. Místo, kde budu moci spojit obchod, technologie a kreativitu.",
@@ -29,10 +30,10 @@ export type JourneyItem = {
 
 export const JOURNEY: JourneyItem[] = [
   {
-    year: "2014 — 2019",
+    year: "2011 — 2019",
     company: "Channel Partners",
     role: "Obchodní zastoupení společnosti E.ON",
-    meta: ["více než 5 let", "B2B obchod", "střední podniky", "velké firmy"],
+    meta: ["více než 8 let", "B2B obchod", "střední podniky", "velké firmy"],
   },
   {
     year: "2019 — 2021",
@@ -107,7 +108,7 @@ export const WHY_ME = {
   cards: [
     {
       title: "Obchodní zkušenosti",
-      body: "Více než 10 let v B2B.",
+      body: "Více než 12 let v B2B.",
       index: "01",
     },
     {
@@ -137,4 +138,6 @@ export const CONTACT = {
   lead: "Hledám firmu, která chce růst.",
   emphasis: "Stejně jako já.",
   email: "lasak.design@gmail.com",
+  phone: "776 288 098",
+  phoneHref: "+420776288098",
 };

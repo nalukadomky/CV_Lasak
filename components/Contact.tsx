@@ -58,13 +58,23 @@ export default function Contact() {
             </MagneticButton>
           </div>
 
-          <a
-            href={`mailto:${CONTACT.email}`}
-            data-cursor="hover"
-            className="mt-2 text-[0.95rem] text-paper-dim underline-offset-4 transition-colors hover:text-paper hover:underline"
-          >
-            {CONTACT.email}
-          </a>
+          <div className="mt-2 flex flex-wrap items-center justify-center gap-x-4 gap-y-1.5 text-[0.95rem] text-paper-dim">
+            <a
+              href={`mailto:${CONTACT.email}`}
+              data-cursor="hover"
+              className="underline-offset-4 transition-colors hover:text-paper hover:underline"
+            >
+              {CONTACT.email}
+            </a>
+            <span className="h-1 w-1 rounded-full bg-paper-dim/50" />
+            <a
+              href={`tel:${CONTACT.phoneHref}`}
+              data-cursor="hover"
+              className="underline-offset-4 transition-colors hover:text-paper hover:underline"
+            >
+              {CONTACT.phone}
+            </a>
+          </div>
         </motion.div>
       </div>
     </section>

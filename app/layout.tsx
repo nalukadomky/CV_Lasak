@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "Lukáš Lasák — Obchodní zástupce",
   description:
-    "Obchodník s více než desetiletou praxí v B2B, podnikatelským myšlením a vášní pro AI a moderní technologie. Hledám novou výzvu, kde spojím obchod, technologie a kreativitu.",
+    "Obchodník s více než 12 lety praxe v B2B, podnikatelským myšlením a vášní pro AI a moderní technologie. Hledám novou výzvu, kde spojím obchod, technologie a kreativitu.",
   keywords: [
     "Lukáš Lasák",
     "obchodní zástupce",
