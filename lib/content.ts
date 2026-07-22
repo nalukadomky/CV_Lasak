@@ -45,7 +45,7 @@ export const JOURNEY: JourneyItem[] = [
     year: "2019 — 2021",
     company: "Ramirent s.r.o.",
     role: "Hlavní grafický designer pro ČR a Slovensko",
-    meta: ["Vizuální identita", "Kreativa"],
+    meta: ["Tvorba bannerů", "Tiskoviny", "Idea maker"],
   },
   {
     year: "2011 — 2019",
