@@ -24,7 +24,7 @@ export default function WhyMe() {
 
       <div className="relative mx-auto max-w-6xl">
         <p className="mb-12 text-center font-mono text-xs text-accent md:mb-16">
-          01 — Proč já
+          01 — Úvod
         </p>
 
         <h2 className="mx-auto max-w-4xl text-center font-display text-[clamp(2.4rem,7vw,5.5rem)] font-light leading-[1.02] tracking-[-0.03em] text-balance">
