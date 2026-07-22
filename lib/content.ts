@@ -73,12 +73,12 @@ export const SKILLS: SkillCard[] = [
 ];
 
 export const EDUCATION = [
-  { school: "Gymnázium Litoměřická", detail: "" },
-  { school: "Střední škola grafického designu Michael", detail: "Maturita" },
   {
     school: "Vyšší odborná škola Kreativní komunikace",
     detail: "Absolutorium",
   },
+  { school: "Střední škola grafického designu Michael", detail: "Maturita" },
+  { school: "Gymnázium Litoměřická", detail: "" },
 ];
 
 export const LANGUAGES = [{ flag: "🇬🇧", name: "Angličtina", level: "B2" }];
