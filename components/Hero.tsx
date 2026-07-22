@@ -166,7 +166,7 @@ export default function Hero() {
 
       {/* Scroll indicator */}
       <motion.a
-        href="#kdo-jsem"
+        href="#proc-ja"
         data-cursor="hover"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
