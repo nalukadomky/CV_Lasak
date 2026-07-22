@@ -109,6 +109,16 @@ export const WHY_ME = {
       body: "Nebojím se AI ani moderních nástrojů.",
       index: "03",
     },
+    {
+      title: "Rychle se učím",
+      body: "Novou oblast nasaju za pár týdnů, ne měsíců.",
+      index: "04",
+    },
+    {
+      title: "Hraju, abych vyhrál",
+      body: "Jde mi o výsledek — ne o odškrtnutou aktivitu.",
+      index: "05",
+    },
   ],
 };
 

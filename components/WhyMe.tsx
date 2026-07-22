@@ -46,17 +46,17 @@ export default function WhyMe() {
           ))}
         </h2>
 
-        <div className="mt-20 grid grid-cols-1 gap-4 md:mt-28 md:grid-cols-3">
+        <div className="mt-20 flex flex-wrap justify-center gap-4 md:mt-28">
           {WHY_ME.cards.map((c, i) => (
             <motion.div
               key={c.title}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "0px 0px -10% 0px" }}
-              transition={{ duration: 0.8, delay: i * 0.1, ease }}
+              transition={{ duration: 0.8, delay: (i % 3) * 0.1, ease }}
               whileHover={reduce ? {} : { y: -8 }}
               data-cursor="hover"
-              className="group relative overflow-hidden rounded-3xl border border-line bg-gradient-to-b from-paper/[0.04] to-paper/[0.01] p-8 backdrop-blur-sm transition-colors duration-300 hover:border-accent/30"
+              className="group relative w-full overflow-hidden rounded-3xl border border-line bg-gradient-to-b from-paper/[0.04] to-paper/[0.01] p-8 backdrop-blur-sm transition-colors duration-300 hover:border-accent/30 sm:w-[calc(50%-0.5rem)] lg:w-[calc(33.333%-0.667rem)]"
             >
               <span className="font-mono text-sm text-accent/60">{c.index}</span>
               <h3 className="mt-6 font-display text-[1.7rem] font-light leading-tight tracking-tight text-paper">
