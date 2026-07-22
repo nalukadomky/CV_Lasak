@@ -100,7 +100,7 @@ export const SOFTWARE = [
   "Microsoft Excel / Word",
 ];
 
-export const DRIVING = ["B — osobní auta", "A — velká motorka"];
+export const DRIVING = ["B — osobní auta", "A — motorka"];
 
 export const WHY_ME = {
   headline: "Obchod je pro mě hlavně o důvěře.",
